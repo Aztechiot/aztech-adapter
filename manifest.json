@@ -1,0 +1,38 @@
+{
+  "author": "Mozilla IoT",
+  "description": "Aztech Kyla smart plug/bulb adapter plugin for Mozilla WebThings Gateway",
+  "gateway_specific_settings": {
+    "webthings": {
+      "exec": "python3 {path}/main.py",
+      "primary_type": "adapter",
+      "strict_max_version": "*",
+      "strict_min_version": "0.10.0"
+    }
+  },
+  "homepage_url": "https://github.com/mozilla-iot/aztech-adapter",
+  "id": "aztech-adapter",
+  "license": "MPL-2.0",
+  "manifest_version": 1,
+  "name": "Aztech Kyla",
+  "options": {
+    "default": {
+      "addresses": []
+    },
+    "schema": {
+      "type": "object",
+      "required": [
+        "addresses"
+      ],
+      "properties": {
+        "addresses": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "short_name": "Aztech Kyla",
+  "version": "0.0.1"
+}

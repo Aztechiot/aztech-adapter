@@ -1,0 +1,2 @@
+git+https://github.com/mrstegeman/click-datetime#egg=click-datetime
+pyKyla==0.3.5.1
