@@ -8,8 +8,6 @@ Aztech Kyla smart plug/bulb adapter for Mozilla WebThings Gateway.
 
 * Smart plugs
     * Smart Plug
-
-
 ## Untested but _Should Work_
 
 
