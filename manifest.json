@@ -1,5 +1,5 @@
 {
-  "author": "Mozilla IoT",
+  "author": "Aztechiot",
   "description": "Aztech Kyla smart plug/bulb adapter plugin for Mozilla WebThings Gateway",
   "gateway_specific_settings": {
     "webthings": {
